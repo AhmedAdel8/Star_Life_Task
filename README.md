@@ -19,7 +19,7 @@ flutter_easyloading
 
 loading_indicator
 
-flutter_bloc (Cubit)
+flutter_bloc
 
 dio
 
@@ -30,8 +30,6 @@ firebase_core
 firebase_messaging
 
 firebase_crashlytics
-
-Storage & Preferences
 
 shared_preferences
 
