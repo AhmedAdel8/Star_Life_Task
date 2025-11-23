@@ -1,16 +1,10 @@
-# truee_balance_app
+# Star Life Task
+استخدام State Management
 
-A Truee Balance.
+في هذا المشروع تم استخدام Cubit من Bloc كأداة لإدارة الحالة، لأنه:
 
-## Getting Started
+يقدم State Management بسيط وخفيف مقارنة بالـ Bloc الكامل.
 
-This project is a starting point for a Flutter application.
+يفصل الـ UI عن الـ Business Logic بطريقة منظمة وواضحة.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+يسمح بكتابة كود أقل مع الحفاظ على Architecture نظيفة وسهلة الاختبارات
