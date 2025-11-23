@@ -58,5 +58,3 @@ json_annotation
 json_serializable
 
 build_runner
-
-cupertino_icons
