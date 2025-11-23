@@ -4,7 +4,6 @@ import 'package:truee_balance_app/core/routing/routes_name.dart';
 import 'package:truee_balance_app/core/services/di/dependency_injection.dart';
 import 'package:truee_balance_app/features/auth/business_logic/auth_cubit.dart';
 import 'package:truee_balance_app/features/auth/presentation/screens/login_screen.dart';
-import 'package:truee_balance_app/features/user/home/data/model/doctors/all_doctors_data_model.dart';
 
 class AppRouter {
   Route? generateRoute(RouteSettings settings) {
@@ -26,9 +25,6 @@ class AppRouter {
           screen: const LoginScreen(),
           cubit: AuthCubit(getIt()),
         );
-
-      case Routes.doctorDetailsScreen:
-        final DoctorModel doctorModel = settings.arguments as DoctorModel;
 
       default:
         return null;
