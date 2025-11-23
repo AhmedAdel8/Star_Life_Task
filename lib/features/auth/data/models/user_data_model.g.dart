@@ -1,0 +1,76 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'user_data_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+UserDataModel _$UserDataModelFromJson(Map<String, dynamic> json) =>
+    UserDataModel(
+      data: json['data'] == null
+          ? null
+          : UserData.fromJson(json['data'] as Map<String, dynamic>),
+      status: json['status'] as String?,
+      error: json['error'] as String?,
+      code: (json['code'] as num?)?.toInt(),
+    );
+
+Map<String, dynamic> _$UserDataModelToJson(UserDataModel instance) =>
+    <String, dynamic>{
+      'data': instance.data,
+      'status': instance.status,
+      'error': instance.error,
+      'code': instance.code,
+    };
+
+UserData _$UserDataFromJson(Map<String, dynamic> json) => UserData(
+      id: (json['id'] as num?)?.toInt(),
+      name: json['name'] as String?,
+      email: json['email'] as String?,
+      phone: json['phone'] as String?,
+      image: json['image'] as String?,
+      token: json['token'] as String?,
+      type: json['type'] as String?,
+      specialization: json['specialization'] == null
+          ? null
+          : Specialization.fromJson(
+              json['specialization'] as Map<String, dynamic>),
+    );
+
+Map<String, dynamic> _$UserDataToJson(UserData instance) => <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'email': instance.email,
+      'phone': instance.phone,
+      'image': instance.image,
+      'token': instance.token,
+      'type': instance.type,
+      'specialization': instance.specialization,
+    };
+
+Specialization _$SpecializationFromJson(Map<String, dynamic> json) =>
+    Specialization(
+      id: (json['id'] as num?)?.toInt(),
+      name: json['name'] == null
+          ? null
+          : LocalizedName.fromJson(json['name'] as Map<String, dynamic>),
+    );
+
+Map<String, dynamic> _$SpecializationToJson(Specialization instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+    };
+
+LocalizedName _$LocalizedNameFromJson(Map<String, dynamic> json) =>
+    LocalizedName(
+      ar: json['ar'] as String?,
+      en: json['en'] as String?,
+    );
+
+Map<String, dynamic> _$LocalizedNameToJson(LocalizedName instance) =>
+    <String, dynamic>{
+      'ar': instance.ar,
+      'en': instance.en,
+    };
