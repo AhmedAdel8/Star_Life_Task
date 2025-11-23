@@ -13,5 +13,4 @@ class HomeCubit extends Cubit<HomeState> {
     currentBannerIndex = index;
     emit(HomeIndexChanged());
   }
-// load more services
 }
