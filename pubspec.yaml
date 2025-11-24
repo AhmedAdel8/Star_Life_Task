@@ -68,8 +68,6 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/videos/
-    - assets/lotties/
     - assets/languages/
     - assets/images/svg/
     - assets/images/png/
